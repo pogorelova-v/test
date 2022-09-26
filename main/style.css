@@ -480,7 +480,7 @@ footer{
 
 .watch-don{
    height: 390px;
-   background-image: url('/assets/images/giant-panda.jpg');
+   background-image: url('../assets/images/giant-panda.jpg');
    background-size: cover;
 }
 .wrapper-pick-and-feed-don{    
