@@ -109,7 +109,7 @@ header .container{
 
 
 .watch{
-    background-image: url('assets/images/giant-panda.jpg');
+    background-image: url('../assets/images/giant-panda.jpg');
     background-size: cover;
 }
 .watch-elem{
