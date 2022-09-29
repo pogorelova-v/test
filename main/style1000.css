@@ -1,0 +1,98 @@
+@media(max-width: 1000px){
+    .container{
+        width: 940px;
+    }
+    .header-ul li:nth-child(3){
+        margin-left: 50px;
+    }
+    .header-ul li:nth-child(4){
+        margin-left: 40px;
+    }
+    .header-ul li:nth-child(5){
+        margin-left: 50px;
+    }
+
+    
+    .watch{
+        display: none;
+    }
+    .watch-1000{
+        display: block;
+    }
+    .watch-elem{
+        width: 820px;
+        padding-top: 0;
+    }
+    .watch-elem button{
+        margin: 45px 45px 50px 0;
+    }
+
+    .flower_foto1{
+        display: none;
+    }
+    .backstage-img{
+        display: none;
+    }
+    .d-block-1000{
+        display: block;
+    }
+    .backstage{
+        padding: 110px 0 130px 0; 
+    }
+    .backstage-text{
+        padding-left: 20px;
+        position: relative;
+        top: -10px;
+        letter-spacing: 0.1px;
+    }
+    .backstage-text-h2{
+        margin-bottom: 58px;
+    }
+    .backstage-text-h2 h2{
+        margin-bottom: 20px;
+        line-height: 120%;
+        letter-spacing: -1px;
+    }
+    .pets-description{
+        margin-bottom: 10px;
+    }
+    .pets-wrapper-card{
+        grid-row-gap: 95px;
+    }
+    .pets-card-img{
+        width: 294px;
+    }
+    .pets-card h5{
+        margin: 7px 0 0 1px;
+    }
+    .pets-arrow-right{
+        right: 320px;
+    }
+    .pets-arrow-left{
+        left: 325px;
+    }
+    .pets-card-cheetah,
+    .pets-card-sloth{
+        display: none;
+    }
+    .palm_foto{
+        display: none;
+    }
+    .palm_foto-1000{
+        left: 0;
+        bottom: -5px;
+    }
+    .strelitzia_foto{
+        display: none;
+    }
+    .strelitzia_foto-1000{
+        right: 0;
+        bottom: -5px;
+    }
+    .wrapper-pets-relativ{
+        position: relative;
+        padding-bottom: 140px;
+    }
+    
+    
+}

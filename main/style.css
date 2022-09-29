@@ -69,6 +69,9 @@ h3{
     letter-spacing: -1px;
 }
 
+.d-block-1000{
+    display: none;
+}
 
 
 header{
@@ -123,7 +126,11 @@ header .container{
 .watch-elem button{
     margin: 60px 100px 100px 0;
 }
-
+.watch-1000{
+    display: none;
+    background-image: url('../assets/images/giant-panda.jpg');
+    background-size: cover;
+}
 
 .backstage{
     display: grid;
