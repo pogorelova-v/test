@@ -101,14 +101,21 @@ body{
     padding: 30px 0 50px 0;
     margin-bottom: 65px;
 }
-.pick-and-feed h2{
-    padding-top: 30px;
+.wrapper-h2{
+    margin-left: 3px;
+    padding-top: 0;
+    margin-top: 0;
+    line-height: 100%;
+    margin-bottom: 21px;
+}
+.wrapper-h2 h2{
+margin-top: -10px;
 }
 .pick-and-feed h4{
+    margin-top: 0;
+    margin-bottom: 20px;
     margin-left: 50px;
     margin-right: 30px;
-    margin-bottom: 22px;
-    margin-top: 20px;
 }
 .pick-and-feed p{
     margin-left: 50px;
@@ -232,63 +239,71 @@ footer{
 .watch-don{
     background-size: 130%;
  }
- .wrapper-pick-and-feed-don{    
+ .wrapper-1000 .wrapper-pick-and-feed{    
      padding: 40px 0 30px 0;
      margin-bottom: 0;
  }
- .h3-don{
+ .wrapper-1000 .h3-don{
      margin: 0 100px 0 0;
      line-height: 140%;
  }
- .h3-p-don{
+ .wrapper-1000 .h3-p-don{
      line-height: 140%;
      margin-top: 30px;
  }
- .h3-don-info{
+ .wrapper-1000 .h3-don-info{
      margin: 50px 0 40px 0;
  }
- .wrapper-h2 h2{
+  .wrapper-1000 .wrapper-h2-don{
+    padding-top: 0;
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+ .wrapper-1000 .wrapper-h2-don h2{
     padding: 0;
      margin: 20px 0 0 -15px;
  }
- .pick-and-feed h4{
+ .wrapper-1000 .pick-and-feed h4{
     margin: 10px 0 0 45px;
  }
- .diet-for-day{
+ .wrapper-1000 .diet-for-day{
     margin-top: 50px;
     margin-left: -30px;
  }
- .diet-for-day p{
+ .wrapper-1000 .diet-for-day p{
      margin: 10px 20px 0 0;
  }
- .ixs{
+ .wrapper-1000 .ixs{
     margin-bottom: -30px;
  }
- .wrapper-step-bar{
+ .wrapper-1000 .wrapper-step-bar{
      margin: 0 65px;
  }
- .step-bar-1000{
+ .wrapper-1000 .step-bar-1000{
     display: none;
  }
- .step-bar{
+ .wrapper-1000 .step-bar{
      padding: 0 10px;
  }
- .another-amount{
+ .wrapper-1000 .step-bar-amount{
+    margin-bottom: 30px;
+}
+ .wrapper-1000 .another-amount{
      padding: 16px 9px;
  }
- .another-amount input{
+ .wrapper-1000 .another-amount input{
      padding: 14px 15px 14px 10px;
  }
- .mr50{
+ .wrapper-1000 .mr50{
    margin-right: 45px;
  }
- .frequency{
+ .wrapper-1000 .frequency{
    margin-top: 10px;
  }
- .how-it-works-don form{
+ .wrapper-1000 .how-it-works-don form{
      margin: 32px 0 18px 0;
  }
- .last-p-don{
+ .wrapper-1000 .last-p-don{
      padding-bottom: 30px;
  }
 }
