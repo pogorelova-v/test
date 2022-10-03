@@ -486,6 +486,9 @@ footer{
     font-weight: 400;
     margin: 0 0 14px 0;
 }
+.none-320{
+    display: block;
+}
 .footer-news-input{
     color: #a8a8a8;
     padding: 10px;
