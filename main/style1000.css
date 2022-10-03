@@ -173,7 +173,7 @@ margin-top: -10px;
 }
 
 
-footer{
+.footer-container{
     margin: 0 auto;
     padding: 40px 0 60px 0;
 }
@@ -181,12 +181,13 @@ footer{
     margin: 65px 0 44px 0;
 }
 .footer-donate{
-    margin-left: 20px;
+    margin-left: 15px;
 }
 .footer-ul{
     margin-left: -25px;
 }
 .footer-ul li{
+    margin-bottom: -25px;
     margin-right: 49px;
 }
 .footer-menu{
