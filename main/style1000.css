@@ -179,6 +179,9 @@ footer{
 .footer-donate form{
     margin: 65px 0 44px 0;
 }
+.footer-donate{
+    margin-left: 20px;
+}
 .footer-ul{
     margin-left: -25px;
 }
@@ -186,11 +189,12 @@ footer{
     margin-right: 49px;
 }
 .footer-menu{
+    margin-left: 20px;
     justify-content: end;
     align-items: center;
 }
 .footer-news{
-    margin-left: 20px;
+    margin-left: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -221,6 +225,7 @@ footer{
     border-radius: 5px;
 }
 .footer-news-cop{
+    margin-left: 20px;
     align-self: flex-end;
 }
 .footer-news-cop p {
