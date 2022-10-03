@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style1000.css">
     <link rel="stylesheet" href="style640.css">
+    <link rel="stylesheet" href="style320.css">
     <link rel="stylesheet" href="../assets/styles/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +21,8 @@
         <h1 class="d-none">PetStory Online</h1>
         <div class="container d-flex al-center">
             <div class="wrapper wrapper-640-header d-flex al-center">
-                <a href="index.html" class="a-logo"><img src="../assets/icon/logo_footer.png" alt="logo"></a>
-                <a href="/index.html" class="a-logo d-block-640"><img src="../assets/icon/logo_footer-640.png" alt="logo"></a>
+                <a href="../index.html" class="a-logo"><img src="../assets/icon/logo_footer.png" alt="logo"></a>
+                <a href="../index.html" class="a-logo d-block-640"><img src="../assets/icon/logo_footer-640.png" alt="logo"></a>
             <ul class="d-flex header-ul">
                 <li><a class="header-ul-a" href="../index.html">About</a></li>
                 <li><a class="header-ul-a" href="#">Map</a></li>
@@ -130,61 +131,88 @@
     </main>
 
     <footer>
-       <div class="container footer-container">
-        <div class="footer-donate d-flex d-column">
-            <div class="wrapper">
-                <a href="../index.html"><img src="../assets/icon/logo_footer.png" alt="logo_footer"></a>
-            </div>
-            <form action="donate.html">
-                <input class="button-square" type="submit" value="Donate for volunteers">
-            </form>
-            <div class="footer-social">
-                <a class="footer-a d-flex al-center" href="https://facebook.com/"> 
-                    <div class="footer-a-img">
-                        <img src="../assets/icon/Facebook.png" alt="Facebook">
-                    </div> Facebook
-                </a>
-                <a class="footer-a d-flex al-center" href="https://twitter.com/"> 
-                    <div class="footer-a-img">
-                        <img src="../assets/icon/twitter.png" alt="twitter">
-                    </div> Twitter
-                </a>
-                <a class="footer-a d-flex al-center" href="https://www.instagram.com/"> 
-                    <div class="footer-a-img">
-                        <img src="../assets/icon/insta.png" alt="instagram">
-                    </div> Instagram
-                </a>
-                <a class="footer-a d-flex al-center" href="https://www.youtube.com/"> 
-                    <div class="footer-a-img">
-                        <img src="../assets/icon/ytoob.png" alt="youtube">
-                    </div> YouTube
-                </a>
-            </div>
+        <div class="container footer-container">
+         <div class="footer-donate d-flex d-column">
+             <div class="wrapper grid-640-a">
+                 <a href="../index.html" class="none-320"><img src=" ../assets/icon/logo_footer.png" alt="logo_footer"></a>
+                 <a href="../index.html" class="block-320"><img src=" ../assets/icon/logo-footer-320.png" alt="logo_footer"></a>
+             </div>
+             <div class="footer-social block-320">
+                 <a class="footer-a d-flex al-center" href="https://facebook.com/"> 
+                     <div class="footer-a-img">
+                         <img src=" ../assets/icon/Facebook.png" alt="Facebook">
+                     </div> Facebook
+                 </a>
+                 <a class="footer-a d-flex al-center" href="https://twitter.com/"> 
+                     <div class="footer-a-img">
+                         <img src=" ../assets/icon/twitter.png" alt="twitter">
+                     </div> Twitter
+                 </a>
+                 <a class="footer-a d-flex al-center" href="https://www.instagram.com/"> 
+                     <div class="footer-a-img">
+                         <img src=" ../assets/icon/insta.png" alt="instagram">
+                     </div> Instagram
+                 </a>
+                 <a class="footer-a d-flex al-center" href="https://www.youtube.com/"> 
+                     <div class="footer-a-img">
+                         <img src=" ../assets/icon/ytoob.png" alt="youtube">
+                     </div> YouTube
+                 </a>
+             </div>
+             <form action="main/donate.html">
+                 <input class="button-square" type="submit" value="Donate for volunteers">
+             </form>
+             <div class="footer-social none-320">
+                 <a class="footer-a d-flex al-center" href="https://facebook.com/"> 
+                     <div class="footer-a-img">
+                         <img src=" ../assets/icon/Facebook.png" alt="Facebook">
+                     </div> Facebook
+                 </a>
+                 <a class="footer-a d-flex al-center" href="https://twitter.com/"> 
+                     <div class="footer-a-img">
+                         <img src=" ../assets/icon/twitter.png" alt="twitter">
+                     </div> Twitter
+                 </a>
+                 <a class="footer-a d-flex al-center" href="https://www.instagram.com/"> 
+                     <div class="footer-a-img">
+                         <img src=" ../assets/icon/insta.png" alt="instagram">
+                     </div> Instagram
+                 </a>
+                 <a class="footer-a d-flex al-center" href="https://www.youtube.com/"> 
+                     <div class="footer-a-img">
+                         <img src=" ../assets/icon/ytoob.png" alt="youtube">
+                     </div> YouTube
+                 </a>
+             </div>
+         </div>
+         <div class="footer-menu d-flex d-column">
+             <ul class="d-flex footer-ul">
+                 <li><a class="footer-ul-a footer-ul-a-active" href="#">About</a></li>
+                 <li><a class="footer-ul-a" href="#">Map</a></li>
+                 <li><a class="footer-ul-a" href="#">Zoos</a></li>
+                 <li><a class="footer-ul-a" href="#">Contact us</a></li>
+             </ul>
+         </div>
+         <div class="footer-news-cop-640">
+             <p>Designed by Alisa Samborskaya</p>
+             <p>©RSSchool & ©Yem Digital 2021</p>
+         </div>
+         <div class="footer-news">
+             <div class="footer-news-feedback">
+                 <h4>Subscribe to our news</h4>
+                 <form action="#">
+                     <input  required id="fni" name="fni" class="footer-news-input" type="email"      placeholder="Enter your email">
+                     <button  class="footer-news-button footer-news-button-error" type="submit">Submit</button>
+                 </form>
+             </div>
+             <div class="footer-news-cop">
+                 <p>Designed by Alisa Samborskaya</p>
+                 <p>©RSSchool & ©Yem Digital 2021</p>
+             </div>
+ 
+         </div>
         </div>
-        <div class="footer-menu d-flex d-column">
-            <ul class="d-flex footer-ul">
-                <li><a class="footer-ul-a" href="../index.html">About</a></li>
-                <li><a class="footer-ul-a" href="#">Map</a></li>
-                <li><a class="footer-ul-a" href="#">Zoos</a></li>
-                <li><a class="footer-ul-a" href="#">Contact us</a></li>
-            </ul>
-        </div>
-        <div class="footer-news">
-            <div class="footer-news-feedback">
-                <h4>Subscribe to our news</h4>
-                <form action="#">
-                    <input  required id="fni" name="fni" class="footer-news-input" type="email"      placeholder="Enter your email">
-                    <button  class="footer-news-button footer-news-button-error" type="submit">Submit</button>
-                </form>
-            </div>
-            <div class="footer-news-cop">
-                <p>Designed by Alisa Samborskaya</p>
-                <p>©RSSchool & ©Yem Digital 2021</p>
-            </div>
-
-        </div>
-       </div>
-    </footer>
+     </footer>
 
     <script src="script-donate.js"></script>
 </body>
