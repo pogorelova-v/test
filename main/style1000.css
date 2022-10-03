@@ -164,7 +164,7 @@ margin-top: -10px;
 }
 .wrapper-relativ-1000{
     position: relative;
-    margin-top: 145px;
+    margin-top: 142px;
 }
 .wrapper-relativ-1000 img{
     position: absolute;
@@ -177,7 +177,7 @@ footer{
     padding: 40px 0 60px 0;
 }
 .footer-container{
-    margin-left: 20px;
+    padding-left: 20px;
 }
 .footer-donate form{
     margin: 65px 0 44px 0;
