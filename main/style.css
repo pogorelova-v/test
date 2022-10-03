@@ -72,6 +72,9 @@ h3{
 .d-block-1000{
     display: none;
 }
+.d-block-640{
+    display: block;
+}
 
 
 header{
@@ -100,6 +103,12 @@ header{
 .header-ul-a-active{
     color: var(--orang);
     pointer-events: none;
+}
+.burger-button{
+    display: none;
+}
+.a-logo.d-block-640{
+    display: none;
 }
 header .container{
     justify-content: space-between;
@@ -270,7 +279,8 @@ header .container{
     color: var(--orang);
     margin: 0;
     padding-top: 41px;
-}.pick-and-feed h4{
+}
+.pick-and-feed h4{
     font-size: 24px;
     font-weight: 400;
     line-height: 120%;
@@ -321,6 +331,9 @@ header .container{
 }
 .arrow-work{
     margin: -80px 30px 0 30px;
+}
+.arrow-work-640{
+    display: none;
 }
 .how-it-works form{
      margin: 70px 0 60px 0;
@@ -502,6 +515,9 @@ footer{
 .footer-news-cop p {
     color: white;
     font-weight: 300;
+}
+.footer-news-cop-640{
+    display: none;
 }
 
 /*-------------------------------*/

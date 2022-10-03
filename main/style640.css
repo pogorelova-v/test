@@ -1,0 +1,457 @@
+@media(min-width: 640px) and (max-width: 999px) {
+    body{
+        overflow-x: hidden;
+    }
+    .container{
+       width: 600px;
+    } 
+    header{
+        height: 34px;
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+    }
+    .button-ellipse{
+        letter-spacing: 0px;
+        font-size: 15px;
+    }
+    .a-logo{
+        display: none;
+    }
+    .a-logo.d-block-640{
+        display: block;
+        width: 46px;
+        margin: 2px 0;
+        transform: scale(1);
+        transition: all 0.5s;
+    }
+    .a-logo.d-block-640:hover{
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+    .a-logo.d-block-640 img{
+        width: 46px;
+    }
+    .header-ul-a{
+        margin: 0;
+        padding: 0;
+        display: none;
+    }
+    .burger-button{
+        display: block;
+        width: 18px;
+        height: 10px;
+        margin-bottom: 10px;
+    }
+    .burger-button img{
+        width: 18px;
+        height: 10px;
+    }
+    .watch{
+        height: 339px;
+    }
+    .watch-elem{
+        padding-top: 15px;
+    }
+    .watch-elem img{
+        height: 240px;
+        margin-top: -5px;
+    }
+    .watch-elem button{
+        margin: -3px 300px 0 0;
+    }
+
+    .backstage-img{
+        display: none;
+    }
+    .backstage{
+        display: block;
+        padding:60px 0 80px 0;  
+    }
+    .backstage-text{
+        padding-left: 0;
+        width: 493px;
+    }
+    .backstage-text-h2{
+        margin-bottom: 30px;
+    }
+    .backstage-text-h2 p{
+        line-height: 130%;
+    }
+    .backstage-text-h2 h2{
+        margin-bottom: 20px;
+        margin-left: 5px;
+    }
+    .backstage-text-sub h3{
+        font-size: 24px;
+        margin-left: 5px;
+    }
+    .backstage-text-sub p{
+        margin-top: 20px;
+       line-height: 135%;
+    }
+    
+    .flower_foto1{
+        top: -10px;
+        right: -30px;
+    }
+    .flower_foto1 img{
+        height: 476px;
+    }
+
+    
+.pets-wrapper-card{
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 90px;
+}
+.pets-card-img{
+    height: 285px;
+    width: 285px;
+}
+.pets-card h5{
+    font-size: 12px;
+    line-height: 100%;
+}
+.pets-description{    
+    margin: 0 8px 0 14px;
+}
+.pets-description-feed{
+    height: 40px;
+}
+.pets-description-feed img{
+    width: 30px;
+}
+.pets-card-sloth,
+.pets-card-cheetah,
+.pets-card-penguin{
+    display: none;
+}
+.pets-card-alligator-1000{
+    display: block;
+}
+.pets-arrow{
+    width: 62px;
+    height: 62px;
+}
+.pets-arrow-right{
+    right: 220px;
+}
+.pets-arrow-left{
+    left: 225px;
+}
+.palm_foto img{
+    width: 130px;
+}
+.strelitzia_foto img{
+    width: 160px;
+}
+.wrapper-pets-relativ{
+    position: relative;
+    padding-bottom: 100px;
+}
+.pets-button-ellipse{
+    margin-top: 67px;
+}
+
+.wrapper-pick-and-feed-don-640{    
+    padding: 20px 0 20px 0;
+    margin-bottom: 30px;
+}
+.container-640{
+    width: 100%;
+}
+.pick-and-feed h2{
+    font-size: 40px;
+    padding-top: 13px;
+    letter-spacing: 1px;
+}
+.pick-and-feed h4{
+    font-size: 22px;
+    margin: 20px auto 20px auto;
+    width: 610px;
+}
+.pick-and-feed p{
+    margin: 0 auto 10px auto;
+    line-height: 130%;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    width: 610px;
+}
+p.pick-p-640{
+    letter-spacing: 0px;
+}
+
+.how-it-works h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.how-it-works-cards{
+    width: 600px;
+    
+}
+.how-it-works-card span{
+    line-height: 130%;
+}
+.how-it-works-card:first-child{
+    margin-top: -15px;
+}
+.how-it-works-card:last-child{
+    margin-right: 15px;
+}
+.how-it-works-card{
+    width: 165px;
+    position: relative;
+}
+.how-it-works-card-img{
+    width: 165px;
+    height: 165px;
+    margin-bottom: 34px;
+}
+.arrow-work{
+    display: none;
+}
+.arrow-work-640{
+    display: block;
+    position: absolute;
+    left: -75px;
+    top: -15px;
+}
+.how-it-works form{
+     margin: 45px 0 60px 0;
+}
+
+
+.testimonials{
+    margin-top: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 90px);
+    row-gap: 35px;
+}
+.testimo-h3{
+    margin-bottom: 30px;
+}
+.testimonials-card{
+    padding: 10px 15px 5px 10px;
+    height: 90px;
+}
+.testimonials-card-1000{
+    display: none;
+}
+.testimonials-card-logo{
+    align-items: flex-start;
+}
+.testimonials-card-logo-tex{
+    margin-top: 5px;
+}
+.testimonials-card-logo img{
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 37px;
+    height: 37px;
+}
+.testimonials-card p {
+    margin-left: 5px;
+}
+.testimonialsline-scroll{
+    position: relative;
+    left: 2000px;
+}
+.button-square-640{
+   display: flex;
+   justify-content: center;
+}
+.button-square{
+    letter-spacing: 0px;
+    font-size: 15px;
+    width: 240px;
+    padding: 18px 0;
+}
+.wrapper-relativ{
+    position: relative;
+    margin-top: 80px;
+}
+.wrapper-relativ img{
+    position: absolute;
+    right:0;
+    bottom: 0;
+    width: 120px;
+}
+
+
+footer{
+    padding: 12px 0 50px 0;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+}
+.footer-social{
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    font-size: 0;
+}
+.footer-a{
+    margin: 0 0 20px 0;
+}
+.footer-a-img{
+    margin-right: 0;
+}
+.footer-donate form{
+    margin: 30px 0 82px 0;
+}
+.footer-donate form input{
+    width: 300px;
+}
+.footer-ul{
+    padding: 0;
+}
+.footer-ul li{
+    margin-right: 39px;
+    list-style: none;
+}
+.footer-menu{
+    align-items: flex-start;
+}
+.footer-news{ 
+    display: none;
+}
+.footer-news-cop-640{
+    align-self: flex-end;
+    color: white;
+    font-weight: lighter;
+    display: block;
+    position: absolute;
+    right: 0;
+    line-height: 90%;
+}  /*----------------*/
+
+
+.watch-don{
+    height: 335px;
+    background-size: 150%;
+}
+ .wrapper-1000 .wrapper-pick-and-feed{    
+     padding: 25px 0 42px 0;
+     border: solid transparent 2px;
+ }
+ .wrapper-1000 .h3-don{
+     margin: 0 0 20px 0;
+     line-height: 130%;
+     font-size: 22px;
+     letter-spacing: 0px;
+     border: solid transparent 2px;
+ }
+ .wrapper-1000 .h3-p-don{
+    margin-bottom: 25px;
+    border: solid transparent 2px;
+}
+
+.wrapper-1000 .h3-don-info{
+    margin: 0 0 30px 0;
+
+    border: solid transparent 2px;
+}
+ .pick-and-feed-don{
+    padding: 0;
+    border: solid transparent 2px;
+    margin-bottom: 0;
+ }
+ .wrapper-h2-don{
+    border: solid transparent 2px;
+    margin-top: 25px;
+    padding-left: 0;
+ }
+ .wrapper-1000 .wrapper-h2-don h2{
+    border: solid transparent 2px;
+    padding: 0;
+    font-size: 48px;
+    letter-spacing: 0;
+     margin:0 0 15px 0;
+ }
+ .wrapper-1000 .pick-and-feed h4{
+    border: solid transparent 2px;
+    width: 510px;
+    font-weight: 700;
+    line-height: 130%;
+    font-size: 22px;
+    margin: 0 auto;
+    text-align: center;
+ }
+
+ .wrapper-1000 .diet-for-day{
+    width: 150px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 15px;
+    text-align: center;
+ }
+ .wrapper-1000 .diet-for-day p{
+     margin: 10px 0 0 0;
+ }
+ .wrapper-counter-don{
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+     width: 550px;
+ }
+ .wrapper-1000 .ixs{
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-right: 60px;
+ }
+ .animal-don{
+    margin-left: 0;
+    margin-top: -10px;
+}
+.wrapper-step-bar h5{
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: normal;
+}
+ .wrapper-1000 .wrapper-step-bar{
+     margin: 0 ;
+ }
+ .wrapper-1000 .step-bar-1000{
+    display: none;
+ }
+ .step-bar-640{
+    display: none;
+}
+ .wrapper-1000 .step-bar{
+     padding: 0 35px;
+ }
+ .wrapper-1000 .step-bar-amount{
+    margin: 10px 15px 35px 15px;
+}
+ .wrapper-1000 .another-amount{
+     padding: 16px 9px;
+ }
+ .wrapper-1000 .another-amount input{
+     padding: 10px 15px 10px 10px;
+     width: 150px;
+     font-size: 16px;
+ }
+ .another-amount span{
+    font-size: 20px;
+ }
+ .wrapper-1000 .mr50{
+   margin-right: 40px;
+ }
+ .wrapper-1000 .frequency{
+   margin-top: 20px;
+ }
+ .wrapper-1000 .how-it-works-don form{
+     margin: 19px 0 35px 0;
+ }
+ .wrapper-1000 .last-p-don{
+    text-align: center;
+    padding-bottom: 20px;
+ }
+
+
+}
