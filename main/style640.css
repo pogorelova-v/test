@@ -48,10 +48,10 @@
         height: 10px;
     }
     .watch{
-        height: 339px;
+        height: 374px;
     }
     .watch-elem{
-        padding-top: 15px;
+        padding-top: 50px;
     }
     .watch-elem img{
         height: 240px;
@@ -114,6 +114,9 @@
 }
 .pets-description{    
     margin: 0 8px 0 14px;
+}
+.pets-description-text span{
+    font-size: 12px;
 }
 .pets-description-feed{
     height: 40px;
@@ -330,7 +333,7 @@ footer{
 
 
 .watch-don{
-    height: 335px;
+    height: 370px;
     background-size: 150%;
 }
  .wrapper-1000 .wrapper-pick-and-feed{    
