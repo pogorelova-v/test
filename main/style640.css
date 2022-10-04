@@ -258,7 +258,8 @@ p.pick-p-640{
 }
 .testimonialsline-scroll{
     position: relative;
-    left: 2000px;
+    opasity: 0;
+    visibility: hidden;
 }
 .button-square-640{
    display: flex;
