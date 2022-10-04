@@ -1,7 +1,17 @@
 @media(min-width: 640px) and (max-width: 999px) {
-    body{
-        overflow-x: hidden;
-    }
+    html{
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+  body
+  {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
     .container{
        width: 600px;
     } 
