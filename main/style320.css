@@ -154,6 +154,9 @@
     height: 72px;
     width: auto;
 }
+.strelitzia_foto{
+    right:0;
+ }
 .strelitzia_foto img{
     height: 71px;
     width: auto;
@@ -293,7 +296,6 @@
     right:0;
     bottom: -10px;
     width: 75px;
-    transform: rotate(-15deg);
 }
 
 
