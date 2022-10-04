@@ -269,6 +269,7 @@
 }
 .testimonialsline-scroll{
     position: relative;
+    width: 300px;
     opacity: 0;
     visibility: hidden;
 }
