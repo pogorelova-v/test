@@ -200,7 +200,6 @@
 }
 
 .how-it-works-cards{
-    width: 600px;
     flex-direction: column;
 }
 .how-it-works-card span{
