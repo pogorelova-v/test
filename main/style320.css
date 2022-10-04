@@ -273,7 +273,8 @@
 }
 .testimonialsline-scroll{
     position: relative;
-    left: 2000px;
+    opacity: 0;
+    visibility: hidden;
 }
 .button-square-640{
    display: flex;
