@@ -108,6 +108,14 @@ header{
 .burger-button{
     display: none;
 }
+.burger-button:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+.burger-button:active{
+    transform: rotate(-180deg);
+    transition: all 1s;
+}
 .a-logo.d-block-640{
     display: none;
 }
@@ -182,12 +190,24 @@ header .container{
     grid-column-gap: 28px;
     grid-row-gap: 28px;
     position: relative;
+    width: 1160px;
+    height: 880px;
+    overflow: hidden;
+    padding: 0 82px;
 }
 .pets-card{
     border-radius: 5px;
     border: solid 1px var(--orang);
 }
+.pets-close{
+    opacity: 0;
+}
+.pets-open{
+    opacity: 1;
+}
+
 .pets-card-img{
+    width: 100%;
     border-radius: 5px 5px 0 0;
     transition: all 1s;
 }
@@ -229,11 +249,14 @@ header .container{
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-    right: -82px;
+    right: 0px;
+}
+.pets-arrow-none{
+    pointer-events: none
 }
 .pets-arrow-left{
     top: 50%;
-    left: -82px;
+    left: 0;
     transform: translateY(-50%) rotate(180deg);
 }
 .pets-arrow:hover{
@@ -339,19 +362,38 @@ header .container{
 .how-it-works form{
      margin: 70px 0 60px 0;
 }
+.value{
+    opacity: 0;
+}
 .testimonials{
     margin-top: 10px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 30px;
+    width: 1200px;
+    height: 360;
+    display: flex;
+    flex-wrap: nowrap;    
+    position: relative;
+    overflow: hidden;
 }
+.testimonias-wrapper{
+    top: 0;
+    left: 0;  
+    height: 360;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    transition: 1s all;
+}
+  
 .testimonials-card{
+    margin-right: 30px;
     padding: 10px 15px 19px 15px;
     background-color: #F1F3F2;    
     border-radius: 20px;
     border: 2px solid rgba(243, 169, 248, 0.66);
     height: 360px;
+    width: 240px;
     overflow: hidden;
+    flex-shrink: 0;
 }
 .testimonials-card-logo img{
     margin-right: 10px;
@@ -375,25 +417,30 @@ header .container{
     font-size: 15px;
     line-height: 120%;
 }
-.testimonialsline-scroll{
+input[type="range"] {
     width: 600px;
     height: 8px;
-    background: #F5F7F6;
+    display: block;
+    -webkit-appearance: none;
+    background: #d3d3d3;
     border-radius: 5px;
+    outline: 0;
     margin: 21px 0 31px 0;
-}
-.testimonialsline-scroll-elem{
-    width: 115px;
-    height: 6px;
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 100px;
+    height: 8px;
     background: #FE9013;
     border-radius: 5px;
     position:relative;    
     transition: all 0.5s;
-}
-.testimonialsline-scroll-elem:hover, .testimonialsline-scroll-elem:active{
-    transform: scaleY(2);
+  }
+input[type="range"]::-webkit-slider-thumb:hover, 
+input[type="range"]::-webkit-slider-thumb:active {
+    transform: scaleY(1.5);
     transition: all 0.5s;
-}
+  }
 .wrapper-relativ{
     position: relative;
     margin-top: 180px;
@@ -742,4 +789,70 @@ input[type=number] {
 .last-p-don{
     padding-top: 0;
     padding-bottom: 40px;
+}
+
+
+.popap-burger{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    z-index: 15;
+    padding: 10px 0;
+} 
+.wrapper-popap-burger{
+    background-color: rgba(0, 0, 0, 0.651);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 14;
+    transform: scale(0) rotate(360deg);
+    transition: all 1s;
+}
+
+.wrapper-popap-burger-open{
+    transform: scale(1) rotate(360deg);
+    transition: all 1s;
+}
+.wrapper-burger-close{
+    background-color: transparent;
+    z-index: 15;
+    width: 100%;
+    height: 100%;
+}
+.ixs-popap-close:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+.ixs-popap-close:active{
+    transform: rotate(-180deg);
+    transition: all 1s;
+}
+.burger-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.burger-menu ul{
+    padding-left: 0;
+}
+.burger-menu ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.burger-menu ul li a:hover,
+.burger-menu ul li a:active{
+    color: var(--orang);
+}
+.burger-menu ul li{
+    margin-bottom: 10px;
+    list-style: none;
+
+}
+
+@media(min-width: 1000px){
+    .testimonials-card-ixs{
+        opacity: 0;
+    }
 }

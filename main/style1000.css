@@ -60,6 +60,9 @@ body{
 }
 .pets-wrapper-card{
     grid-row-gap: 95px;
+    width: 945px;
+    height: 810px;
+    padding: 0;
 }
 .pets-card-img{
     width: 294px;
@@ -72,10 +75,6 @@ body{
 }
 .pets-arrow-left{
     left: 325px;
-}
-.pets-card-cheetah,
-.pets-card-sloth{
-    display: none;
 }
 .palm_foto{
     display: none;
@@ -144,12 +143,14 @@ margin-top: -10px;
 .testimo-h3{
      margin-bottom: 20px;
 }
-.testimonials{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.testimonials{    
+    width: 910px;
 } 
-.testimonials-card-1000{
-    display: none;
+.testimonials-card{
+    margin-right: 35px;
+}
+.testimonials-card:last-child{
+     display: none;
 }
 .testimonialsline-scroll{
     width: 400px;
