@@ -334,3 +334,7 @@ table.services-price-inside-table tr:last-child{
 .advantages-btn-form{
     display: none;
 }
+.advantages-carousel-item img{
+    max-height: 600px;
+    max-width: 1000px;
+}
