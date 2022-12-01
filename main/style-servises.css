@@ -1,0 +1,336 @@
+/*------------------------service---------------------------*/
+body{
+    font-weight: 500;
+}
+h1{
+    width: 100%;
+    text-align: center;
+}
+h5{
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+}
+.main-menu ul li{
+    margin: 5px 40px 5px 0;
+    color: white;
+    transition: all 0.5s;
+}
+.main-menu ul li:hover{
+    color: red;
+    transition: all 0.5s;
+}
+.main-menu ul li img{
+    transform: rotate(270deg);
+    width: 10px;
+    margin-left: 10px;
+}
+.font-size-0{
+    font-size: 0px;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    width: 0;
+}
+
+.services-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.services-price{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.services-price table,
+h5, h6,
+.reasons ul,
+.reasons p,
+.services-dop-form{    
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.5);
+}
+.services-price span{
+    font-weight: 600;
+}
+.service-dop-slogan{
+    text-align: center;
+}
+.service-dop span,
+.reasons span{
+    font-weight: 700;
+}
+.dn{
+    display: none;
+}
+h6{
+    font-weight: 700;
+    font-size: 18px;
+    z-index: 1;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-decoration: underline solid 2px red;
+}
+.services-price table{
+    width: 100%;
+    margin: 0;
+}
+.services-price .td-center{
+    text-align: center;
+}
+.services-price th{
+    text-align: center;
+    border-bottom: solid 2px rgb(0, 0, 0);
+}
+.services-price thead th:first-child,
+.services-price tbody td:first-child{
+    border-right: solid 2px rgb(0, 0, 0)
+}
+.services-price tr{
+    border-bottom: solid 2px rgb(0, 0, 0);
+    padding-left: 5px;
+}
+.services-price tfoot{
+    font-size: 14px;
+    font-weight: 400;
+}
+table.services-price-inside-table tr{
+    border-bottom: solid 1px rgba(0, 0, 0, 0.5);
+}
+table.services-price-inside-table td:first-child{
+    text-align: left;
+    border-right: solid 1px rgba(0, 0, 0, 0.5);
+    padding-left: 10px;
+    width: 70%;
+}
+table.services-price-inside-table tr:last-child{
+    border-bottom: none;
+}
+.btn-services-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-services-page h5{
+    margin: 20px 0;
+}
+
+.dd-button{
+    margin: 0 0 20px 0;
+}
+.services-img{
+    border: black 3px solid;
+    width: 100%;
+    margin: 30px 0 50px 0;
+}
+.service-gallery img{
+    margin-bottom: 5px;
+}
+.service-gallery{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.waiting-you-wrapper{
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+@media (min-width: 600px){
+    .service-gallery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        transition: 0.5s;
+    }
+    .service-gallery img{
+        margin: 5px;
+        transition: 0.5s;
+    }
+    .services-img-open{
+        width: 100%;
+        transition: 0.5s;
+    }
+}
+@media (min-width: 768px){
+    .services-description{
+        flex-direction: row;
+    }
+    .services-img{
+        width: 40%;
+        transition: 0.5s;
+        margin: 0;
+    }
+    .reasons{
+        margin-bottom: 0;
+    }
+    .btn-services-page{
+        flex-direction: row;
+    }
+    .dd-button{
+        margin: 30px 10px 50px 10px;
+    }
+}
+@media (min-width: 1000px){
+    .burger-bar-content{
+        display: block;
+        padding-left: 100px;
+    }    
+    .service-gallery img.services-img-open{
+        width: 80%;
+    }
+    .services-dop-form{
+        display: flex;
+    }
+}
+@media (min-width: 1200px){
+    .services-price{
+        width: 80%;
+    }
+}
+.services-img-open{
+    width: 100%;
+    transition: 0.5s;
+    position: relative;
+}
+
+
+/*------------------------sale---------------------------*/
+
+
+.sale-item{
+    background-size: cover;
+    margin-bottom: 30px;
+    min-height: 400px;
+    display: flex;    
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    border: solid black 5px;
+}
+.sale-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 10px;
+    width: 100%;
+    height: auto;
+}
+.sale-info p{
+    color: rgb(255, 255, 255);
+    margin: 0 0 1px 0;
+    font-weight: 300;
+    font-size: 14px;
+}
+.sale-space{
+    width: 100%;
+    height: 100%;
+}
+.sale-info span{
+    font-weight: 500;
+}
+.sale-item img{
+    width: 30px;
+}
+.sale-call{
+    width: 100%;
+    padding: 5px;
+    border-top: none;
+    background-color: white;
+    text-align: center;    
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.sale-call:hover{
+    background-color: black;
+    color: white;
+}
+.sale-item-1{
+    background-image: url('../assets/img/sale-page1.jpg');
+}
+.sale-item-2{
+    background-image: url('../assets/img/sale4.jpg');
+}
+.sale-item-3{
+    background-image: url('../assets/img/sale6.jpg');
+}
+.sale-button-formPopup{
+    width: 0;
+    height: 0;
+}
+
+
+.sale-page-banner{
+    width: 100%;
+    display: block;
+    margin: 0 auto 50px auto;
+}
+.sale-page-banner img{
+    width: 100%;
+}
+
+
+@media (min-width: 768px) {
+    .sale-info{
+        padding: 10px 40px;
+        height: auto;
+    }
+    .sale-page-banner{
+    max-width: 800px;
+}
+}
+@media (min-width: 1200px) {
+    .sale-item{
+        width: 80%;
+        margin: 0 auto 30px auto;
+    }
+}
+
+@media (min-width: 1400px) {
+    .sale-wrapper{
+        display: flex;
+        justify-content: space-around;
+    }
+    .sale-item{
+        width: 45%;
+        height: auto;
+        margin: 0 10px ;
+    }
+}
+
+/*------------------------------.advantages-----------------------*/
+
+.advantages-carousel-control{
+    width: 40px;
+}
+.advantages-info{
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 30px 30px rgba(255, 255, 255, 0.4);
+}
+.advantages-info span{
+    font-weight: 700;
+}
+.advantages-info .h5-bold{
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.advantages-info p{
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+.advantages-btn-form{
+    display: none;
+}

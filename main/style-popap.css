@@ -1,0 +1,231 @@
+.form{
+    margin: 0 auto;
+    transition: all 1s;
+    z-index: 10;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: white;
+    padding: 20px 10px;
+    transition: 1s;
+    border: solid 2px rgb(0, 0, 0);
+    min-width: 300px;
+    max-width: 450px;
+}
+.form-active{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transition: all 1s;
+}
+.close-popup{
+    position: absolute;
+    right: 15px;
+    top: -5px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.form__body{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .form__body::after{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #2b2a2973 url('../assets/icon/loading.gif') center / 50px no-repeat;;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0,5s;
+  }
+  .form__body._sending::after{
+      opacity: 1;
+      visibility: visible;
+  }
+
+form h4{
+    display: flex;
+    justify-content: center;
+}
+form p {
+    font-size: 14px;
+    width: 80%; 
+    text-align: center;
+}
+.form__inpute{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+.form__item {
+    width: 300px;
+    height: 40px;
+    border: 2px solid rgb(161, 161, 161);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+}
+textarea::placeholder{
+    padding-top: 7px;
+}
+.detailed-data {
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.detailed-data-img{
+    width: 14px;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.detailed-data-active-img{
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+.detailed-data-content{
+    height: 0;
+    overflow: hidden;
+}
+.detailed-data-content-active{
+    height: 100%;
+}
+
+.check-box-wrapper{
+    width: 250px;
+    text-align: end;
+    margin-bottom: 10px;
+}
+.check-box-wrapper-agreem{
+    font-size: 14px;
+}
+.checkbox__label {
+    font-weight: 400;
+}
+.check-box-wrapper,
+.check-box-wrapper-agreem{
+    position: relative;
+    padding: 0 25px;
+}
+.checkbox__inpute,
+.checkbox__inpute._req{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    width: 0px;
+    height: 0px;
+}
+.checkbox__inpute::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(161, 161, 161);
+    border-radius: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+}
+.checkbox__inpute._req::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(161, 161, 161);
+    border-radius: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+}
+.checkbox__inpute:checked::after,
+.checkbox__inpute._req:checked::after{    
+    border: 2px solid rgb(0, 0, 0);
+}
+.checkbox__inpute._req:checked::before{
+    position: absolute;
+    content: '✓';
+    font-size: 30px;
+    font-weight: 700;
+    top: 35%;
+    transform: translateY(-50%);
+    left: 2px;
+}
+.checkbox__inpute:checked::before{
+    position: absolute;
+    content: '✓';
+    font-size: 30px;
+    font-weight: 700;
+    top: 35%;
+    transform: translateY(-50%);
+    right: -5px;
+}
+.form__button {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 20px;
+    transition: 0.5s;
+}
+.form__button:active{
+    transform: scale(1.3);
+    transition: 0.5s;
+    background-color: red;
+    color: black;
+}
+
+.form__inpute._error{
+    background-color: rgba(255, 0, 0, 0.322);
+}
+
+.checkbox__inpute._error{
+    border: none;
+}
+.checkbox__inpute._req._error::after{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.checkbox__inpute._req._error:checked::after{
+    background-color: transparent;
+}
+
+.detailed-data{
+    cursor: pointer;
+}
+  /*-----------------------------*/
+
+
+
+@media (max-width: 380px){
+    h4.form__title{
+        font-size: 16px;
+    }
+    .form p{
+        font-size: 14px;
+    }
+}
+@media (min-width: 1000px){
+    .services-dop-form{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .service-dop{
+        width: 50%;
+        margin-left: 20px;
+    }
+}
