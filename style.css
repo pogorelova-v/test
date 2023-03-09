@@ -1,0 +1,62 @@
+@font-face {
+    font-display: swap;
+    font-family: 'ff';
+    font-style: normal;
+    font-weight: 400;
+    src: url('20011.ttf');
+}
+
+html {
+    font-size: 1, 1111111111111vw;
+}
+
+body {
+    letter-spacing: 0.05rem;
+    font-family: 'ff';
+}
+
+h1 {
+    text-align: center;
+    margin: 4rem 0 3rem 0;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50rem;
+    box-shadow: inset 0 0 5px black;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+ol li {
+    margin-bottom: 2rem;
+}
+
+ul li{
+    margin: 0.3rem;
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 0 0 0.3rem 0;
+}
+
+.question p{
+    font-size: 1.4rem;
+    display: block;
+    margin: 0.5rem;
+    font-weight: 600;
+}
+
+.answer span {
+    font-weight: 600;
+}

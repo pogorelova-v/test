@@ -1,1 +1,361 @@
+<!DOCTYPE html>
+<html lang="ru">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Основные вопросы на грейдировании</h1>
+    </header>
+
+    <main>
+        <section class="html_wrap">
+            <h2>HTML</h2>
+            <ol>
+                <li>
+                    <div class="question">
+                        <p>HTML это</p>
+                    </div>
+                    <div class="answer">
+                        <p>- Язык гипертекстовой разметки, позволяет создавать форматированный текст, который понимает браузер и использует для отрисовки страницы</p>
+                        <p>Скелет страницы, основная задача <span>объяснить браузеру как отрисовать станицу</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p>Глобальные атрибуты HTML</p>
+                    </div>
+                    <div class="answer">
+                        <ul>
+                            <li><span>class</span> - позволяет искать и стилизовать элементы</li>
+                            <li><span>contenteditable</span> - делает элемент редактируемым, тоесть даёт возможность изменить контент (булевой)</li>
+                            <li><span>data-*</span> - группа атрибутов позволяющая перекидывать данные между html и DOM, часто используется для управления html элементами через js</li>
+                            <li><span>hidden</span> - скрывает элемент от людей и роботов</li>
+                            <li><span>spellcheck</span> - показывает браузеру что нужно проверить равописание в элементе</li>
+                            <li><span>tabindex</span> - показывает браузеру нужно ли видеть элемент при переключении по странице табами</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p>Категории контента HTML5 это</p>
+                    </div>
+                    <div class="answer">
+                        <p>- <span>Группировки элементов объединённые общим набором характеристик</span>, не задёт отношения, а помогает описывать поведение и правила</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p>Основные категории контента</p>
+                    </div>
+                    <div class="answer">
+                        <ul>
+                            <li><span>Метаданные</span> - элементы метаданных изменяют отображение или поведение документа, связывают его с другими докумантами и представляют иную доп. информацию</li>
+                            <li><span>Потоковый</span> - элементы основного потока содержащие текст и встроенный контент</li>
+                            <li><span>Секционный</span> - элементы создающие глобальные секции в структуре документа, определяют область заголовочного контета, хедер и футер</li>
+                            <li><span>Заголовочный</span> - определяют заголовки секций</li>
+                            <li><span>Фразовый</span> - определяет текст и его формат</li>
+                            <li><span>Встроенный</span> - импортирует другой ресурс или вставляет содержимое на другом языке резметки</li>
+                            <li><span>Интерактивный</span> - элементы для взаимодействия с пользователем</li>
+                            <li><span>Явный</span> - то что видно на странице, не скрыто и не пусто</li>
+                            <li><span>Контент форм</span> - элементы принадлежащие формам</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p>DOCTYPE это</p>
+                    </div>
+                    <div class="answer">
+                        <p><span>- Используется для указания типа документа</span>, пишется первой строкой любого html, помогает браузеру интерпритировать страницу и понять какие теги валидные, а какие нет</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p>Базовая структура HTML страницы</p>
+                    </div>
+                    <div class="answer">
+                        <ul>
+                            <li><span>DOCTYPE</span> - html</li>
+                            <li><span>htm</span> - lang="ru"</li>
+                            <li><span>head</span> - meta, title, link...</li>
+                            <li><span>body</span> - контент</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p>Валидация и типы проверки</p>
+                    </div>
+                    <div class="answer">
+                        <p>- Проверка документа валидатором, на соответствие стандартам и поиск ошибок</p>
+                        <ul>
+                            
+                            <li><span>dtd - соответсвие DOCTYPE</span></li>
+                            <li><span>Синтаксис</span></li>
+                            <li><span>Вложенность</span></li>
+                            <li><span>Наличие посторонних предметов</span></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p>Какой тег нужен для вёрстки кнопки</p>
+                    </div>
+                    <div class="answer">
+                        <ul>
+                            <li><span>&ltbutton&gtButton&lt/button&gt</span> - обычная, для настройки функционала через js</li>
+                            <li><span>&ltbutton type="submit"&gt Button &lt/button&gt</span> - кнопка подтверждения формы</li>
+                            <li><span>&ltinput type="submit"&gt value="Button"&gt</span> - кнопка подтверждения формы</li>
+                            <li><span>&ltinput type="button"&gt</span> - обычная старая</li>
+                            <li><span>&lta href="#"&gtButton&lt/a&gt</span> - ссылка кнопка, стилизуется через css</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p>Составляющие HTML5 как платформу</p>
+                    </div>
+                    <div class="answer">
+                        <ul>
+                            <li><span>Сементика</span> - опысывает контент</li>
+                            <li><span>Стилизация</span> - создаёт темы оформления</li>
+                            <li><span>Доступ к устройствам</span> - доступ к устройствам ввода и вывода</li>
+                            <li><span>Связанность</span> - общение с сервером</li>
+                            <li><span>Офлайн хранилище</span> - хранение данных локально, на стороне клиента</li>
+                            <li><span>Мультимедиа</span> - подключение аудио и видео</li>
+                            <li><span>2D/3D графика</span> - расширяет возможности презентации</li>
+                            <li><span>Производительность и интернет</span> большая скорость оптимизации и лучшее использование аппаратных средств</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p>Инлайновый стиль это</p>
+                    </div>
+                    <div class="answer">
+                        <p>- Стиль указанный в элементе html документа, через <span>тег style</span>, переопределить можно только через !important </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="question">
+                        <p></p>
+                    </div>
+                    <div class="answer">
+                        <p></p>
+                    </div>
+                </li>
+            </ol>
+        </section>
+    </main>
+
+</body>
+
+</html>
