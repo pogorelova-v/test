@@ -102,3 +102,23 @@ p {
     width: 200px;
     height: 200px;
 }
+
+@media (max-width:768px) {
+    body {
+        letter-spacing: 0.3px;
+        font-size: 16px;
+    }
+    .btn-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container {
+        width: 95%;
+    }
+    .question p {
+        font-size: 20px;
+    }
+    ul{
+        padding: 0 0 0 10px;
+    }
+}
